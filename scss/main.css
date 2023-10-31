@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url(../Asstes/checklist-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.notification {
+  width: 20vw;
+  height: 2vh;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 2rem auto;
+  padding: 0.6rem 0;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  transform: translateY(-100px);
+}
+
+.notification-succes {
+  width: 50vw;
+  color: white;
+  background-color: rgba(30, 168, 30, 0.872);
+  animation: notificationpopup 0.1s ease-in-out 0.1s 1 normal both;
+}
+
+.notification-danger {
+  width: 30vw;
+  color: floralwhite;
+  background-color: rgba(224, 40, 40, 0.872);
+  animation: notificationpopup 0.1s ease-in-out 0.5s 1 normal both;
+}
+
+.notification-danger-delete {
+  width: 50vw;
+  color: floralwhite;
+  background-color: rgba(224, 40, 40, 0.872);
+  animation: notificationpopup 0.1s ease-in-out 0.5s 1 normal both;
+}
+
+.container {
+  width: 70vw;
+  height: 70vh;
+  margin: 2rem auto;
+  background-color: rgba(158, 158, 158, 0.535);
+}
+.container h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0.75rem 0;
+}
+.container .inputcontainer {
+  width: 70vw;
+  height: 6vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.container .inputcontainer .input-box {
+  display: flex;
+  flex-direction: column;
+}
+.container .inputcontainer .input-box .title-label {
+  width: 2vw;
+  height: 2vh;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.3725490196);
+}
+.container .inputcontainer .input-box #InptTitle {
+  width: 15vw;
+  height: 3vh;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3568627451);
+  border-bottom: 2px solid black;
+}
+.container .inputcontainer .input-box .task-label {
+  width: 3vw;
+  height: 2vh;
+  color: #000000;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.3725490196);
+}
+.container .inputcontainer .input-box #InptText {
+  width: 15vw;
+  height: 3vh;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3568627451);
+  border-bottom: 2px solid black;
+}
+.container .inputcontainer #ToDobtn {
+  width: 4vw;
+  height: 3vh;
+  border: none;
+  background-color: rgb(247, 219, 247);
+  font-weight: 600;
+}
+.container .todolist-container {
+  width: 70vw;
+  height: auto;
+  padding: 0.5rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .todolist-container .todo-box {
+  width: 50vw;
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container .todolist-container .todo-box .todo-text #Title {
+  width: 6vw;
+  height: 2vh;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.5490196078);
+}
+.container .todolist-container .todo-box .todo-text #ToDo {
+  width: 30vw;
+  height: 4vh;
+  text-transform: capitalize;
+  padding: 0.5rem 0 0 0;
+  margin: 0 0.75rem 0 0;
+  border: 1px solid white;
+}
+.container .todolist-container .todo-box #DoneBtn,
+.container .todolist-container .todo-box #DeleteBtn {
+  width: 2vw;
+  height: 4vh;
+  border: none;
+  color: white;
+  border-radius: 50%;
+  background-color: transparent;
+}
+.container .todolist-container .todo-box #DoneBtn:hover {
+  color: #12c002;
+}
+.container .todolist-container .todo-box #DeleteBtn:hover {
+  color: #f54d4d;
+}
+.container .todolist-container .todo-box .todo-done {
+  text-decoration: line-through;
+}
+
+@keyframes notificationpopup {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Asstes/favicon.ico" type="image/x-icon">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./scss/main.css">
+    <link rel="stylesheet" href="./scss/Responsive.css">
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+    <div class="notification"></div>
+    <section class="container">
+        <h1>To Do List</h1>
+        <article class="inputcontainer">
+            <div class="input-box">
+                <label for="InptTitle" class="title-label">Title</label>
+                <input type="text" id="InptTitle" placeholder="Title" required>
+            </div>
+            <div class="input-box">
+                <label for="InptText" class="task-label">To Do</label>
+                <input type="text" id="InptText" placeholder="To-Do" required>
+            </div>
+            <button type="submit" id="ToDobtn">Add To-Do</button>
+        </article>
+        <article class="todolist-container">
+        </article>
+    </section>
+</body>
+</html>

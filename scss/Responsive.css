@@ -1,0 +1,123 @@
+@media (width <= 786px) {
+  .container {
+    width: 80vw;
+    height: 100vh;
+  }
+  .container .inputcontainer {
+    width: 80vw;
+    height: 8vh;
+  }
+  .container .inputcontainer .input-box {
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .container .inputcontainer .input-box .title-label {
+    width: 6vw;
+  }
+  .container .inputcontainer .input-box #InptTitle {
+    width: 20vw;
+  }
+  .container .inputcontainer .input-box .task-label {
+    width: 6vw;
+  }
+  .container .inputcontainer .input-box #InptText {
+    width: 20vw;
+  }
+  .container .inputcontainer #ToDobtn {
+    width: 10vw;
+  }
+  .container .todolist-container {
+    width: 80vw;
+  }
+  .container .todolist-container .todo-box {
+    width: 70vw;
+  }
+  .container .todolist-container .todo-box .todo-text {
+    width: 50vw;
+    margin: 0 1rem 0 0;
+  }
+  .container .todolist-container .todo-box .todo-text #Title {
+    width: -moz-fit-content;
+    width: fit-content;
+    text-transform: uppercase;
+  }
+  .container .todolist-container .todo-box .todo-text #ToDo {
+    width: 49.5vw;
+    border-top: none;
+    border-bottom: 1px solid black;
+    text-transform: capitalize;
+  }
+  .container .todolist-container .todo-box #DoneBtn {
+    width: 5vw;
+    color: greenyellow;
+  }
+  .container .todolist-container .todo-box #DeleteBtn {
+    width: 5vw;
+    color: red;
+  }
+}
+@media (width <= 600px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+  }
+  .container .inputcontainer {
+    width: 100vw;
+    height: 25vh;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .inputcontainer .input-box {
+    width: 80vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .container .inputcontainer .input-box .title-label {
+    width: 10vw;
+  }
+  .container .inputcontainer .input-box #InptTitle {
+    width: 62.5vw;
+  }
+  .container .inputcontainer .input-box .task-label {
+    width: 10.5vw;
+  }
+  .container .inputcontainer .input-box #InptText {
+    width: 62.5vw;
+  }
+  .container .inputcontainer #ToDobtn {
+    width: 25vw;
+  }
+  .container .todolist-container {
+    width: 100vw;
+  }
+  .container .todolist-container .todo-box {
+    width: 98vw;
+  }
+  .container .todolist-container .todo-box .todo-text {
+    width: 70vw;
+  }
+  .container .todolist-container .todo-box .todo-text #Title {
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 16px;
+    border-bottom: 1px solid rgb(4, 4, 4);
+  }
+  .container .todolist-container .todo-box .todo-text #ToDo {
+    width: 60vw;
+    border-top: none;
+    border: 1px solid black;
+  }
+  .container .todolist-container .todo-box #DoneBtn {
+    width: 25vw;
+    color: greenyellow;
+  }
+  .container .todolist-container .todo-box #DeleteBtn {
+    width: 25vw;
+    color: red;
+  }
+}/*# sourceMappingURL=Responsive.css.map */
