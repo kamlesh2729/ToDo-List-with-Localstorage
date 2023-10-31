@@ -5,10 +5,10 @@ this is todo list website you can add your daily work in this. your todo work is
 todo will be save to localstorage.
 
 # Bulid with:
-*Html
+* Html
 
-*Scss
+* Scss
 
-*JavaScript
+* JavaScript
 
-*Localstorage
+* Localstorage
